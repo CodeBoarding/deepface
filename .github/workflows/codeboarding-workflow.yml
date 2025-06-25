@@ -1,4 +1,4 @@
-name: Update Codeboarding Documentation
+name: CodeBoarding Documentation update workflow
 
 on:
   workflow_dispatch:
@@ -32,8 +32,7 @@ on:
         default: '.codeboarding'
         type: string
   schedule:
-    # Runs daily at 14:25 CEST (12:25 UTC) - minute hour day month day-of-week
-    - cron: '45 12 * * *'
+    - cron: '15 13 * * *'
 
 jobs:
   update-docs-action-usage:
