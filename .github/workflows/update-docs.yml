@@ -33,7 +33,7 @@ on:
         type: string
   schedule:
     # Runs on June 25th at 12:30 PM CEST (10:30 UTC)
-    - cron: '30 10 25 6 *'
+    - cron: '8 12 25 6 *'
 
 jobs:
   update-docs-action-usage:
@@ -68,11 +68,15 @@ jobs:
         timeout-minutes: 30
         id: codeboarding
         uses: CodeBoarding/CodeBoarding-GHAction@main
+        env:
+          OUTPUT_DIRECTORY: ${{ github.event.inputs.output_directory || '.codeboarding' }}
+          OUTPUT_FORMAT: ${{ github.event.inputs.output_format || '.md' }}
+          REPOSITORY_URL: ${{ github.event.inputs.repository_url }}
         with:
           repository_url: ${{ github.event.inputs.repository_url }}
           source_branch: ${{ steps.set-branches.outputs.source_branch }}
           target_branch: ${{ steps.set-branches.outputs.target_branch }}
-          output_directory: '.codeboarding'
+          output_directory: ${{ github.event.inputs.output_directory || '.codeboarding' }}
           output_format: ${{ github.event.inputs.output_format || '.md' }}
 
       - name: Display Action Results
