@@ -26,6 +26,11 @@ on:
         options:
           - '.md'
           - '.rst'
+      output_directory:
+        description: 'Output directory for documentation files'
+        required: false
+        default: '.codeboarding'
+        type: string
   schedule:
     # Runs on July 25th at 4:30 AM CET (2:30 UTC)
     - cron: '30 2 25 7 *'
