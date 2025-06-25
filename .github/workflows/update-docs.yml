@@ -33,7 +33,7 @@ on:
         type: string
   schedule:
     # Runs daily at 14:25 CEST (12:25 UTC) - minute hour day month day-of-week
-    - cron: '25 12 * * *'
+    - cron: '45 12 * * *'
 
 jobs:
   update-docs-action-usage:
