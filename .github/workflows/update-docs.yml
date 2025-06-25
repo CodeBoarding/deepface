@@ -32,8 +32,8 @@ on:
         default: '.codeboarding'
         type: string
   schedule:
-    # Runs on June 25th at 14:15 CEST (12:15 UTC) - minute hour day month day-of-week
-    - cron: '15 12 25 6 *'
+    # Runs daily at 14:25 CEST (12:25 UTC) - minute hour day month day-of-week
+    - cron: '25 12 * * *'
 
 jobs:
   update-docs-action-usage:
