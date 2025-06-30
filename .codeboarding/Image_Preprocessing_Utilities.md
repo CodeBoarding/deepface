@@ -23,7 +23,7 @@ This sub-component is solely responsible for abstracting the process of loading 
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/commons/image_utils.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface/commons/image_utils.py` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/commons/image_utils.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface/commons/image_utils.py` (1:1)</a>
 
 
 ### Image Preprocessing Utilities [[Expand]](./Image_Preprocessing_Utilities.md)
@@ -32,7 +32,7 @@ This sub-component focuses on preparing image data for deep learning models. Its
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/preprocessing.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface/modules/preprocessing.py` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/preprocessing.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface/modules/preprocessing.py` (1:1)</a>
 
 
 
