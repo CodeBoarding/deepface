@@ -46,12 +46,12 @@ The central orchestrator of the DeepFace library, responsible for coordinating a
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/detection.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.detection` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/representation.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.representation` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/verification.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.verification` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/demography.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.demography` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/recognition.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.recognition` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/streaming.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.streaming` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/detection.py" target="_blank" rel="noopener noreferrer">`deepface.modules.detection`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/representation.py" target="_blank" rel="noopener noreferrer">`deepface.modules.representation`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/verification.py" target="_blank" rel="noopener noreferrer">`deepface.modules.verification`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/demography.py" target="_blank" rel="noopener noreferrer">`deepface.modules.demography`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/recognition.py" target="_blank" rel="noopener noreferrer">`deepface.modules.recognition`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/streaming.py" target="_blank" rel="noopener noreferrer">`deepface.modules.streaming`</a>
 
 
 ### Model Management Component
@@ -60,10 +60,10 @@ Responsible for building, loading, and managing the various deep learning models
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/modeling.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.modeling` (0:0)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/Detector.py#L9-L27" target="_blank" rel="noopener noreferrer">`deepface.models.Detector` (9:27)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/FacialRecognition.py#L15-L47" target="_blank" rel="noopener noreferrer">`deepface.models.FacialRecognition` (15:47)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/Demography.py#L15-L67" target="_blank" rel="noopener noreferrer">`deepface.models.Demography` (15:67)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/modeling.py" target="_blank" rel="noopener noreferrer">`deepface.modules.modeling`</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/Detector.py#L9-L27" target="_blank" rel="noopener noreferrer">`deepface.models.Detector` (9:27)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/FacialRecognition.py#L15-L47" target="_blank" rel="noopener noreferrer">`deepface.models.FacialRecognition` (15:47)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/Demography.py#L15-L67" target="_blank" rel="noopener noreferrer">`deepface.models.Demography` (15:67)</a>
 
 
 ### Face Detection Component
@@ -72,8 +72,8 @@ Identifies and extracts facial regions from input images or video frames, provid
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/detection.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.detection` (0:0)</a>
-- `deepface.models.face_detection` (0:0)
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/detection.py" target="_blank" rel="noopener noreferrer">`deepface.modules.detection`</a>
+- `deepface.models.face_detection`
 
 
 ### Facial Representation Component
@@ -82,8 +82,8 @@ Converts detected facial images into numerical embeddings (vectors) that capture
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/representation.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.representation` (0:0)</a>
-- `deepface.models.facial_recognition` (0:0)
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/representation.py" target="_blank" rel="noopener noreferrer">`deepface.modules.representation`</a>
+- `deepface.models.facial_recognition`
 
 
 ### Verification Component
@@ -92,7 +92,7 @@ Compares two facial embeddings to determine if they belong to the same individua
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/verification.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.verification` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/verification.py" target="_blank" rel="noopener noreferrer">`deepface.modules.verification`</a>
 
 
 ### Recognition Component
@@ -101,7 +101,7 @@ Searches for a given face within a database of known faces, identifying potentia
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/recognition.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.recognition` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/recognition.py" target="_blank" rel="noopener noreferrer">`deepface.modules.recognition`</a>
 
 
 ### Demography Analysis Component
@@ -110,8 +110,8 @@ Analyzes detected faces to predict demographic attributes such as age, gender, e
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/demography.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.demography` (0:0)</a>
-- `deepface.models.demography` (0:0)
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/demography.py" target="_blank" rel="noopener noreferrer">`deepface.modules.demography`</a>
+- `deepface.models.demography`
 
 
 ### Streaming Analysis Component
@@ -120,7 +120,7 @@ Manages the real-time processing of video streams for continuous face detection,
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/modules/streaming.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.modules.streaming` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/modules/streaming.py" target="_blank" rel="noopener noreferrer">`deepface.modules.streaming`</a>
 
 
 ### Image Utilities Component
@@ -129,7 +129,7 @@ Provides common utility functions for image loading, resizing, alignment, and ba
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/commons/image_utils.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.commons.image_utils` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/commons/image_utils.py" target="_blank" rel="noopener noreferrer">`deepface.commons.image_utils`</a>
 
 
 ### Logging Component
@@ -138,7 +138,7 @@ Handles the logging of information, warnings, and errors throughout the DeepFace
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/commons/logger.py#L0-L0" target="_blank" rel="noopener noreferrer">`deepface.commons.logger` (0:0)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/commons/logger.py" target="_blank" rel="noopener noreferrer">`deepface.commons.logger`</a>
 
 
 

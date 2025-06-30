@@ -40,10 +40,10 @@ This component serves as the primary interface for users to interact with the De
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/api/src/app.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.app` (1:1)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/api/src/modules/core/routes.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.modules.core.routes` (1:1)</a>
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/api/src/modules/core/service.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.modules.core.service` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/api/src/app.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.app` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/api/src/modules/core/routes.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.modules.core.routes` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/api/src/modules/core/service.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.api.src.modules.core.service` (1:1)</a>
 
 
 ### Core API Component
@@ -52,7 +52,7 @@ This component orchestrates the main DeepFace functionalities, acting as a centr
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
 - `deepface.commons.functions` (1:1)
 
 
@@ -62,7 +62,7 @@ Responsible for loading, caching, and managing the various deep learning models 
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/DeepFace.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.DeepFace` (1:1)</a>
 - `deepface.commons.functions` (1:1)
 - `deepface.basemodels` (1:1)
 
@@ -73,7 +73,7 @@ This component is dedicated to detecting faces within images. It provides an abs
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/Detector.py#L9-L27" target="_blank" rel="noopener noreferrer">`deepface.models.Detector` (9:27)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/Detector.py#L9-L27" target="_blank" rel="noopener noreferrer">`deepface.models.Detector` (9:27)</a>
 - `deepface.models.face_detection` (1:1)
 
 
@@ -83,7 +83,7 @@ This component is responsible for generating numerical representations (embeddin
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/FacialRecognition.py#L15-L47" target="_blank" rel="noopener noreferrer">`deepface.models.FacialRecognition` (15:47)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/FacialRecognition.py#L15-L47" target="_blank" rel="noopener noreferrer">`deepface.models.FacialRecognition` (15:47)</a>
 - `deepface.models.facial_recognition` (1:1)
 
 
@@ -93,7 +93,7 @@ This component analyzes detected faces to predict demographic attributes such as
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/models/Demography.py#L15-L67" target="_blank" rel="noopener noreferrer">`deepface.models.Demography` (15:67)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/models/Demography.py#L15-L67" target="_blank" rel="noopener noreferrer">`deepface.models.Demography` (15:67)</a>
 - `deepface.models.demography` (1:1)
 
 
@@ -112,7 +112,7 @@ Manages the logging of events, errors, and debugging information throughout the 
 
 **Related Classes/Methods**:
 
-- <a href="https://github.com/CodeBoarding/deepface/blob/master/.codeboarding/deepface/commons/logger.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.commons.logger` (1:1)</a>
+- <a href="https://github.com/CodeBoarding/deepface/blob/master/deepface/commons/logger.py#L1-L1" target="_blank" rel="noopener noreferrer">`deepface.commons.logger` (1:1)</a>
 
 
 
